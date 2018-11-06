@@ -1,0 +1,66 @@
+.display-4{
+	font-family: ;
+	font-size: 26px;
+}
+
+.container{
+	background-color: #e9ecef
+}
+
+.lead{
+	font-family: Verdana;
+	text-align: center;
+}
+
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+
+.section{
+	font-size: 34px;
+	font-family: Verdana;
+	font:bold;
+	padding-left: 20px;
+	text-align: center
+}
+
+
+.col-8{
+	 border: 4px;
+	 box-shadow: 0 0 5px #666;
+	 padding-top: 20px;
+	 background-color: white;
+	 padding-bottom: 20px
+}
+
+.col-4{
+	border: 4px;
+	 box-shadow: 0 0 5px #666;
+	 padding-top: 20px;
+	 background-color: white;
+	 padding-bottom: 20px
+}
+
+
+.list-group-item{
+	color:black;
+}
+
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+   }
+
+#myimage{
+	
+}
+
+.card{
+	box-shadow: 7px 7px 5px rgba(0,0,0,0.2);
+}
+
+body{
+background-color: #f0f0f0;
+}
