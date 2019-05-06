@@ -1,1 +1,0 @@
-# AminovE99.github.io
