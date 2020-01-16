@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <script type="application/json" src="en.json" data-vavilon-dict="en"></script>
-        <script type="application/json" src="ru.json" data-vavilon-dict="ru"></script>
+    <script type="application/json" src="ru.json" data-vavilon-dict="ru"></script>
     <script src="https://cdn.jsdelivr.net/npm/vavilon@1/dist/vavilon.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -144,22 +144,33 @@
             <div class="col-4">
                 <div class="section vavilon" data-vavilon="career">Карьера</div>
             </div>
-            <div class="col-8">
+            <div class="col-8"></div>
+            <div class="col-4">
                 <svg height="800" version="1.1" width="1000" xmlns="http://www.w3.org/2000/svg"
                      xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;">
-                    <text x="25" y="260" class="career">2019</text>
-                    <image x="25" y="210" width="600" id="sovkom"
-                           xlink:href="images/sovkom.png"
-                           x="0" y="0" height="80" width="80"></image>
                     <path fill="none" stroke="#000000" d="M150,40L150,710" stroke-width="2"></path>
-                    <circle cx="150" cy="250" r="10" fill="#0003cc"></circle>
-                    <circle cx="150" cy="450" r="10" fill="#fc2140"></circle>
-                    <image x="25" y="410" width="600" id="sovkom"
-                           xlink:href="images/monogramm_horizontal.svg"
-                           x="0" y="0" height="80" width="80"></image>
+                    <circle cx="150" cy="140" r="10" fill="#0003cc"></circle>
+                    <circle cx="150" cy="335" r="10" fill="#fc2140"></circle>
                 </svg>
             </div>
+            <div class="col-8">
+                <div class="dropdown">
+                    <img src="images/sovkom.png" class="dropdown-toggle" width="300">
+                    <a href="#" class="dropdown-toggle" data-toggle="modal"><span
+                            class="caret"></span></a>
+                </div>
+                 <div class="dropdown">
+                    <img src="images/monogramm_horizontal.svg" class="dropdown-toggle" width="300">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="https://github.com/Monogramm/erpnext_autoinstall">ERPNext Autoinstall</a></li>
+                        <li><a href="https://github.com/Monogramm/erpnext_ocr">ERPNext OCR</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
     </div>
 </div>
 </div>
